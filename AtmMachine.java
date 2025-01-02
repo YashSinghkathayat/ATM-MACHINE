@@ -64,6 +64,7 @@ class ATM {
         }else{
             Balance = Balance - amount;
             System.out.println("money withdrwal sucessfully");
+            System.out.println("Current Balance: "+ Balance);
             menu();
         }
         
@@ -74,6 +75,7 @@ class ATM {
         int amount = sc.nextInt();
         Balance = Balance + amount;
         System.out.println("Money deposited sucessfully");
+        System.out.println("Current Balance: "+ Balance);
         menu();
 
     }
